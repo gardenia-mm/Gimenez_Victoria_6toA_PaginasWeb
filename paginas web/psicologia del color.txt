@@ -5,13 +5,13 @@ rojo: amor, pasión, energia, poder, atención, calor, comodidad, agresividad, p
 ejm: ofertas
 sirve en pags de deporte, alimentación, coches y tecnología
 
-naranja: alegria, fuerza, entusiasmo y ganas de vivir (ponele)
+naranja: alegria, fuerza, entusiasmo y ganas de vivir
 ejm: igual q el rojo, para destacar
 sirve en pags de comida, bebidas, ropa deportiva, fitness
 
 amarillo: alegria, felicidad, energia, optimismo, creatividad, claridad, luminosidad
 para resaltar
-sirve en pags de comida, educación, creatividad, niños (??), bienestar
+sirve en pags de comida, educación, creatividad, niños, bienestar
 
 verde: calma, relajación, frescura, vitalidad, renovación, armonia, equilibrio
 sirve en pags de salud, medicina, naturaleza, bienestar
