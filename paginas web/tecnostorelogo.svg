@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200" role="img" aria-label="Logo TecnoStore">
+  <rect x="6" y="6" width="188" height="188" rx="36" fill="#1565c0"/>
+  <rect x="58" y="58" width="84" height="84" rx="10" fill="#eceff3"/>
+  <path d="M78 82h44M100 82v42" stroke="#0b2545" stroke-width="12" stroke-linecap="round"/>
+  <g stroke="#eceff3" stroke-width="6" stroke-linecap="round">
+    <path d="M78 58V38M100 58V38M122 58V38M78 142v20M100 142v20M122 142v20M58 78H38M58 100H38M58 122H38M142 78h20M142 100h20M142 122h20"/>
+  </g>
+</svg>

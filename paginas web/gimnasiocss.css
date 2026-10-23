@@ -1,0 +1,274 @@
+body {
+  margin: 0;
+  font-family: Verdana, sans-serif;
+  background-color: #14213d;
+  color: #f1f1f1;
+}
+
+header {
+  background-color: #0c1429;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+  padding: 20px;
+}
+
+.logo {
+  height: 140px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 44px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+}
+
+header p {
+  margin: 5px 0 0 0;
+  color: #d4193c;
+  font-weight: bold;
+}
+
+nav {
+  background-color: #1f3057;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding: 8px 18px;
+  border-radius: 20px;
+}
+
+nav ul li a:hover { 
+  background-color: #d4193c;
+}
+
+section {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 20px;
+}
+
+section h2 {
+  text-align: center;
+  color: #d4193c;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.fila {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.fila {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+}
+
+article {
+  flex: 1;
+  min-width: 280px;
+  max-width: 350px;
+  background-color: #1f3057;
+  border: 2px solid #d4193c;
+  border-top: 8px solid #d4193c;
+  border-radius: 6px;
+  padding: 20px;
+  text-align: center;
+  color: #ffffff;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+  cursor: pointer;
+}
+
+article:hover {
+  transform: scale(1.04);
+  box-shadow: 0 12px 24px rgba(212, 25, 60, 0.2);
+  background-color: #263b6b;
+}
+
+article h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+article p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin-top: 15px;
+}
+
+article img {
+  width: 100%; 
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+article {
+  flex: 1;
+  min-width: 200px;
+  background-color: #1f3057;
+  border: 2px solid #d4193c;
+  border-top: 8px solid #d4193c;
+  border-radius: 6px;
+  padding: 15px;
+  text-align: center;
+}
+
+article h3 {
+  margin-top: 0;
+}
+
+#horarios ul {
+  list-style: none;
+  padding: 0;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#horarios li {
+  padding: 10px;
+  border-bottom: 1px solid #3a4c7a;
+}
+
+#entrenadores .fila-entrenadores {
+  display: flex !important;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  gap: 25px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+.tarjeta-entrenador {
+  flex: 1 1 280px;
+  max-width: 340px;
+  background-color: #1f3057;      
+  border-bottom: 6px solid #d4193c; 
+  border-radius: 8px;
+  padding: 25px 20px;
+  text-align: center;
+  color: #ffffff;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: #0c1429;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+footer p {
+  margin: 0;
+}
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #1f3057;
+  border: 2px solid #d4193c;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+form label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 8px;
+  margin-top: 5px;
+  background-color: #1a1a1a;
+  color: white;
+  border: 1px solid #d4193c;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.terminos {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 15px;
+}
+
+.terminos input {
+  width: auto;
+  margin-top: 0;
+}
+
+.terminos label {
+  margin-top: 0;
+  font-weight: normal;
+}
+
+form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #d4193c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: white;
+  color: #000;
+}
+
+.mensaje-form {
+  margin: 15px 0 0 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.mensaje-form.error {
+  color: #ff8a99;
+}
+
+.mensaje-form.ok {
+  color: #8fe0a0;
+}

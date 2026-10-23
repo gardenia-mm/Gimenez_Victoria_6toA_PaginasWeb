@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --azul: #42446E;
+  --gris: #666;
+  --acento: #2E6FD9;
+  --acento-oscuro: #2358B0;
+  --fondo-suave: #E8EEFA;
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+  word-wrap: break-word;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+*, *::before, *::after { box-sizing: inherit; }
+html { scroll-behavior: smooth; }
+body { color: var(--gris); }
+a { text-decoration: none; color: inherit; }
+section, header, footer { padding: 40px 8%; }
+
+.barra,
+.pie-fila {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 24px;
+  color: var(--azul);
+}
+
+nav a,
+.redes a {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  color: var(--gris);
+}
+
+nav a { margin-right: 24px; }
+.redes a { margin-left: 20px; }
+nav a:hover, .redes a:hover { color: var(--acento); }
+
+.principal {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  padding: 60px 0 40px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 58px;
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -1px;
+  color: var(--azul);
+}
+
+.destacado { color: var(--acento); }
+
+.intro {
+  max-width: 500px;
+  font-weight: 300;
+  font-size: 18px;
+}
+
+.marco-foto {
+  width: 350px;
+  height: 350px;
+  padding: 6px;
+  border-radius: 50%;
+  background: var(--acento);
+}
+
+.marco-foto img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center 30%;
+  border-radius: 50%;
+  background: #fff;
+}
+
+h2 {
+  margin: 0;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--azul);
+}
+
+.subtitulo {
+  margin: 8px 0 40px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.stack {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.item { width: 160px; text-align: center; }
+.item p { font-weight: 300; margin: 12px 0 0; }
+
+.icono {
+  width: 120px;
+  height: 120px;
+  padding: 8px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.tarjeta {
+  display: flex;
+  flex-direction: column;
+  border-radius: 14px;
+  overflow: hidden;
+  box-shadow: 0 6px 24px rgba(66, 68, 110, 0.15);
+}
+
+.tarjeta img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  background: var(--fondo-suave)
+}
+
+.cuerpo { flex: 1; padding: 20px; }
+
+.tarjeta h3 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  font-weight: 700;
+  color: var(--azul);
+}
+
+.tarjeta p { margin: 0; font-weight: 300; font-size: 18px; }
+
+.tarjeta .tecnologias { margin-top: 14px; font-size: 16px; font-weight: 400; color: var(--azul); }
+.tecnologias span { font-weight: 300; }
+
+form {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 24px;
+  border: 1px solid #e3e3ee;
+  border-radius: 14px;
+  box-shadow: 0 6px 24px rgba(66, 68, 110, 0.12);
+}
+
+label { display: block; margin-top: 14px; font-weight: 500; color: var(--azul); }
+
+input, select, textarea {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 1px solid #c9c9d6;
+  border-radius: 8px;
+}
+
+button:hover { background: var(--acento-oscuro); }
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  background: var(--acento);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer { margin-top: 60px; border-top: 1px solid #e3e3ee; }
+footer .pie-fila + .pie-fila { margin-top: 24px; padding-top: 24px; border-top: 1px solid #e3e3ee; }
+
+footer a { font-family: "Poppins", sans-serif; font-weight: 400; font-size: 18px; color: var(--azul); }
+
+@media (max-width: 800px) {
+  h1 { font-size: 38px; }
+  h2 { font-size: 34px; }
+  .subtitulo { font-size: 20px; }
+  .principal { flex-direction: column-reverse; text-align: center; }
+  .marco-foto { width: 250px; height: 250px; }
+  .barra, .pie-fila { justify-content: center; }
+}
+
+.mensaje { margin: 14px 0 0; text-align: center; font-weight: 600; }
+.mensaje.error { color: #c62828; }
+.mensaje.ok { color: #2e7d32; }
